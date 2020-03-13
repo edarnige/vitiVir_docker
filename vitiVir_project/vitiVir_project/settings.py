@@ -77,6 +77,8 @@ WSGI_APPLICATION = 'vitiVir_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
+        'HOST': 'mongo',
+        'PORT': 27017,
         'NAME': 'test',
     }
 }
